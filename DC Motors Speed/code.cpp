@@ -2,6 +2,13 @@
 //Zbudować układ oparty na dwóch silnikach DC, dołożyć wyświetlanie na ekranie
 // LCD prędkości każdego z nich.
 
+//Funkcjonalność: 
+//- dwa silniki DC
+//- dwa potencjometry do regulacji prędkości silników
+//- wyświetlanie prędkości na LCD (od 0-255)
+
+// wykorzystanie LCD 16x2, potencjometrów, silników DC, Układ sterujący silnikami z mostkiem H i rezystor
+
 #include <LiquidCrystal.h>
 LiquidCrystal LCD(12, 11, 5, 4, 3, 2);
 
